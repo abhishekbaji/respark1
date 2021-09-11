@@ -9979,7 +9979,9 @@ textarea.form-control {
   text-align: center;
 }
   
-
+input{
+  width: 70% !important;
+}
 .testimony-section .owl-dots {
   text-align: center;
 }
