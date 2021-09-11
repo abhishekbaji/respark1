@@ -9958,7 +9958,22 @@ textarea.form-control {
  margin-top: 3%;
  margin-bottom: 3%;
 }
-
+.fz{
+  font-size: 24px;
+}
+.carousel-caption {
+  position: absolute;
+  right: 0%;
+  /* bottom: 143px; */
+  top: -8px;
+  left: 0%;
+  z-index: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  
+}
 .testimony-section .owl-dots {
   text-align: center;
 }
