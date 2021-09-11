@@ -5267,7 +5267,7 @@ a.close.disabled {
       position: absolute;
       right: 15%;
       /* bottom: 143px; */
-      top: 225px;
+      top: 225px !important;
       left: 15%;
       z-index: auto;
       padding-top: 20px;
@@ -9939,6 +9939,8 @@ textarea.form-control {
 .text-align-l{
   text-align:left !important;
 }
+
+
 .back-to-top {
   position: fixed;
   display: none;
@@ -9959,21 +9961,21 @@ textarea.form-control {
  margin-bottom: 3%;
 }
 .fz{
-  font-size: 24px;
+  font-size: 27px;
 }
 .carousel-caption {
   position: absolute;
   right: 0%;
-  /* bottom: 143px; */
-  top: -8px;
-  left: 0%;
+ 
+  left: 1% !important;
   z-index: auto;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #fff;
   text-align: center;
-  
 }
+  
+
 .testimony-section .owl-dots {
   text-align: center;
 }
