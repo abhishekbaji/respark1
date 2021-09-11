@@ -9963,6 +9963,9 @@ textarea.form-control {
 .fz{
   font-size: 20px;
 }
+.fzz{
+  font-size: 12px;
+}
 .carousel-caption {
   position: absolute;
   right: 0%;
