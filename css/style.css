@@ -5263,11 +5263,11 @@ a.close.disabled {
   .carousel-indicators .active {
     opacity: 1; }
 
-    .carousel-caption {
+    .carousel-caption1 {
       position: absolute;
       right: 15%;
       /* bottom: 143px; */
-      top: 225px !important;
+      top: 225px ;
       left: 15%;
       z-index: auto;
       padding-top: 20px;
@@ -9948,7 +9948,7 @@ textarea.form-control {
   bottom: 15px;
   z-index: 99999;
 }
-@media (min-width:360px) {
+@media screen and (max-width: 800px) {
   .carousel-inner img {
     width: 100%;  
     height: auto ; 
@@ -9966,8 +9966,8 @@ textarea.form-control {
 .carousel-caption {
   position: absolute;
   right: 0%;
- 
-  left: 1% !important;
+ top: 0px ;
+  left: 1% ;
   z-index: auto;
   padding-top: 20px;
   padding-bottom: 20px;
