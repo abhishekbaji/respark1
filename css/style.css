@@ -8143,7 +8143,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: "Poppins", Arial, sans-serif;
-  background: #ffc6ed30;
+  background: #ffffff30;
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
@@ -8273,7 +8273,7 @@ h1, h2, h3, h4, h5,
         background: #bf925b; } }
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
     color: #ff10a0c2;
-    border-bottom: 1px solid #ff4693;
+    /* border-bottom: 1px solid #ff4693; */
     }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item.active > a {
@@ -9924,8 +9924,9 @@ textarea.form-control {
 
 
 .bg-circle {
-  background: -webkit-linear-gradient(right, rgb(255 176 209 / 82%), rgb(251 87 156));
+  /* background: -webkit-linear-gradient(right, rgb(255 176 209 / 82%), rgb(251 87 156)); */
   color: #3d3d3d;
+  background: #c5c5c5;
   height: 100px;
   width: 100px;
   padding: 0px 0px 0px 0px;
@@ -9934,12 +9935,10 @@ textarea.form-control {
   font-size: 36px;
   box-shadow: 0px 0px 14px -3px #9c9c9c;
 }
-.bg-circle:hover{
-  background: -webkit-linear-gradient(right, rgb(255 0 107), rgb(255 175 209));
-  transition: ease-in 500ms;
-}
+
 .bg-squre{
-  background: -webkit-linear-gradient(right, rgb(253 77 151 / 82%), rgb(255 173 230 / 62%));
+ /* background: -webkit-linear-gradient(right, rgb(253 77 151 / 82%), rgb(255 173 230 / 62%));*/
+  background: #c5c5c5;
   color: #3d3d3d;
   height: 150px;
   width: 150px;
