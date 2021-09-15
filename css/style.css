@@ -9952,6 +9952,9 @@ textarea.form-control {
  
   padding: 20px;
 }
+.bg-squre:hover{
+  background: #eb906e;
+}
 .f-text{
   font-size: 14px;
 }
