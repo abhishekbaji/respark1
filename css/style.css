@@ -10064,3 +10064,51 @@ textarea.form-control {
     text-align:center !important;
   }
 }
+.counter-box {
+  color: #fff;
+  text-align: center;
+}
+
+.counter-fa .fa-circle {
+    height: 60px;
+    width: 60px;
+    line-height: 1.8;
+    box-shadow: 0 0 0 10px #ffcaca;
+}
+.fa-circle {
+  height: 100px;
+  width: 100px;
+  font-size: 2rem;
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 0 10px #b5b5b5;
+  display: block;
+}
+.fa-circle:before {
+ display: none;
+}
+
+.overlay-mf {
+  background-color: #000000fa;
+}
+.overlay-mf {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .7;
+}
+.bg-image {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+.paralax-mf {
+  position: relative;
+
+}
