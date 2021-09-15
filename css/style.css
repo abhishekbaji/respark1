@@ -9936,7 +9936,9 @@ textarea.form-control {
   /* box-shadow: 0px 0px 14px -3px #9c9c9c; */
 }
 
-
+.bg-circle:hover {
+  background: #eb906e;
+}
 .bg-squre{
  /* background: -webkit-linear-gradient(right, rgb(253 77 151 / 82%), rgb(255 173 230 / 62%));*/
   background: #c5c5c561;
@@ -9971,7 +9973,9 @@ textarea.form-control {
   text-align:left !important;
 }
 
-
+.p-d{
+  padding: 35px;
+}
 .back-to-top {
   position: fixed;
   display: none;
@@ -9990,7 +9994,7 @@ textarea.form-control {
   background: -webkit-linear-gradient(right, rgb(0 0 0 / 42%), rgb(0 0 0 / 68%));
   padding: 25px;
   z-index: auto;
-  padding-top: 215px;
+  padding-top: 158px;
   padding-left: 90px;
   padding-right: 437px;
   text-align: left;
@@ -10002,6 +10006,9 @@ textarea.form-control {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .p-d{
+    padding: 10px;
   }
 .margin-t-b{
  margin-top: 3%;
