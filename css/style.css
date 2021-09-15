@@ -8625,7 +8625,7 @@ h3.vr {
   position: relative;
   width: 100%;
   display: block;
-  overflow: hidden;
+  aoverflow: hidden;
   z-index: 0; }
   .project:after {
     position: absolute;
@@ -8634,14 +8634,15 @@ h3.vr {
     right: 0;
     bottom: 0;
     content: '';
-    background: #bf925b;
+    background: #eb906e9c;
     opacity: 0;
     z-index: 1;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
-    transition: all 0.3s ease; }
+    transition: all 0.3s ease;
+    }
   .project img {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
